@@ -643,6 +643,7 @@ func newServerMux(c muxConfig, gateway Gatewayer) *http.ServeMux {
 		http.MethodDelete: []string{EndpointsStorage},
 	})
 
+	gateway.SetupAltcoinRoutes("/altcoin", webHandlerV2)
 	return mux
 }
 

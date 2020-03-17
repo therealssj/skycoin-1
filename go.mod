@@ -10,10 +10,14 @@ require (
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/boltdb/bolt v1.3.1
+	github.com/btcsuite/btcd v0.20.1-beta
+	github.com/btcsuite/btcutil v1.0.1 // indirect
+	github.com/btcsuite/goleveldb v1.0.0 // indirect
 	github.com/cenkalti/backoff v1.1.0
-	github.com/golang/protobuf v1.2.0 // indirect
 	github.com/google/go-cmp v0.2.0
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/jessevdk/go-flags v1.4.0 // indirect
+	github.com/kkdai/bstream v1.0.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.4 // indirect
@@ -35,8 +39,6 @@ require (
 	github.com/stretchr/testify v1.2.2
 	github.com/toqueteos/webbrowser v1.1.0
 	github.com/urfave/cli v1.20.0
-	golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e
-	golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519 // indirect
+	golang.org/x/crypto v0.0.0-20200317142112-1b76d66859c6
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
-	golang.org/x/sys v0.0.0-20181023152157-44b849a8bc13 // indirect
 )
